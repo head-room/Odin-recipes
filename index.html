@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Very Delicious Meals</h1>
-    <ul>
-        <li><a href="./recipes/meatloaf.html"><em>Dwayne "the Rock" Meatloaf Recipe</em></a></li>
-        <li><a href="./recipes/lemongarlicdevito.html"><em>Lemon Garlic Devito Bake</em></a></li>
-        <li><a href="./recipes/adrienbrodysinablanket.html"><em>Adrien Brodys in a Blanket</em></a></li>
-    </ul>   
+<body class="homebody" style="background-color: black;">
+    <h1 class="homeh1" style="background-color: rgb(0, 0, 0); color: maroon; text-align: center; font-size: 60px;">Very Delicious Meals</h1>
+    
+    <div class="block-container">   
+        
+        <div class="block"> 
+                <img 
+                    src="./images/DwayneTheRockMeatloaf.jpg" 
+                    alt="DwayneTheRockMeatloaf">
+                <p><a href="./recipes/meatloaf.html"><em>Dwayne "the Rock" Meatloaf Recipe</em></a></p>
+        </div>
+        
+        <div class="block">
+                <img 
+                    src="./images/LemonGarlicDevito.jpg" 
+                    alt="lemongarlicdevito">
+                <p><a href="./recipes/lemongarlicdevito.html"><em>Lemon Garlic Devito Bake</em></a></p>
+        </div>
+        
+        <div class="block"> 
+                <img class="brody" 
+                    src="./images/AdrienBrodyinaBlanket.jpg" 
+                    alt="adrienbrodysinablanket">
+                <p><a href="./recipes/adrienbrodysinablanket.html"><em>Adrien Brodys in a Blanket</em></a></p>
+        </div>
+    </div>
 </body>
 </html>
